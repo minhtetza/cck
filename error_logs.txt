@@ -1,0 +1,81 @@
+Traceback (most recent call last):
+  File "/root/main/bot/tools/gen.py", line 184, in thread
+    scr_done = await message.reply_document(
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/sync.py", line 74, in coro_wrapper
+    return await asyncio.wrap_future(asyncio.run_coroutine_threadsafe(coroutine, main_loop))
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/types/messages_and_media/message.py", line 1601, in reply_document
+    return await self._client.send_document(
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/methods/messages/send_document.py", line 193, in send_document
+    r = await self.invoke(
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/methods/advanced/invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/session/session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/session/session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MediaCaptionTooLong: Telegram says: [400 MEDIA_CAPTION_TOO_LONG] - The media caption is too long (caused by "messages.SendMedia")
+
+Telegram says: [401 AUTH_KEY_UNREGISTERED] - The key is not registered in the system. Delete your session file and login again (caused by "contacts.ResolveUsername")
+Traceback (most recent call last):
+  File "/root/main/bot/gates/gethitsfiles.py", line 13, in cmd_buy
+    key = msg[1]
+IndexError: list index out of range
+
+Traceback (most recent call last):
+  File "/root/main/bot/tools/bin.py", line 37, in cmd_bin
+    bin = session.get(f"https://lookup.binlist.net/{fbin}").json()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "/root/main/bot/tools/gen.py", line 184, in thread
+    scr_done = await message.reply_document(
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/sync.py", line 74, in coro_wrapper
+    return await asyncio.wrap_future(asyncio.run_coroutine_threadsafe(coroutine, main_loop))
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/types/messages_and_media/message.py", line 1601, in reply_document
+    return await self._client.send_document(
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/methods/messages/send_document.py", line 193, in send_document
+    r = await self.invoke(
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/methods/advanced/invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/session/session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/session/session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MediaCaptionTooLong: Telegram says: [400 MEDIA_CAPTION_TOO_LONG] - The media caption is too long (caused by "messages.SendMedia")
+
+Traceback (most recent call last):
+  File "/root/main/bot/tools/gen.py", line 184, in thread
+    scr_done = await message.reply_document(
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/sync.py", line 74, in coro_wrapper
+    return await asyncio.wrap_future(asyncio.run_coroutine_threadsafe(coroutine, main_loop))
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/types/messages_and_media/message.py", line 1601, in reply_document
+    return await self._client.send_document(
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/methods/messages/send_document.py", line 193, in send_document
+    r = await self.invoke(
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/methods/advanced/invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/session/session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/session/session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MediaCaptionTooLong: Telegram says: [400 MEDIA_CAPTION_TOO_LONG] - The media caption is too long (caused by "messages.SendMedia")
+
+Telegram says: [401 AUTH_KEY_UNREGISTERED] - The key is not registered in the system. Delete your session file and login again (caused by "messages.ImportChatInvite")
+Telegram says: [401 AUTH_KEY_UNREGISTERED] - The key is not registered in the system. Delete your session file and login again (caused by "contacts.ResolveUsername")
+Telegram says: [401 AUTH_KEY_UNREGISTERED] - The key is not registered in the system. Delete your session file and login again (caused by "contacts.ResolveUsername")
+Telegram says: [401 AUTH_KEY_UNREGISTERED] - The key is not registered in the system. Delete your session file and login again (caused by "contacts.ResolveUsername")
+Client has not been started yet

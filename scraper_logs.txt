@@ -1,0 +1,6 @@
+Client is already connected
+Client is already connected
+Client is already connected
+Client is already connected
+Client is already connected
+database is locked
